@@ -27,7 +27,7 @@ export function getSortedPostsData() {
 
       // Combine the data with the id
       return {
-        id: path.join(dir, id),
+        id: `${dir}/${id}`,
         ...(matterResult.data as BlogPost),
       };
     });

@@ -1,11 +1,8 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "./layout.module.css";
-import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
-const name = "[Your Name]";
-export const siteTitle = "Next.js Sample Website";
+export const siteTitle = "Writeups";
 
 export default function Layout({
   children,
@@ -20,7 +17,7 @@ export default function Layout({
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="CTF Writeups"
+          content="Writeups"
         />
         <meta name="og:title" content={siteTitle} />
       </Head>
